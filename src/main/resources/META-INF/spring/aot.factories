@@ -1,0 +1,8 @@
+org.springframework.beans.factory.aot.BeanFactoryInitializationAotProcessor=\
+    com.hyf.graalvm.config.CustomBeanFactoryInitializationAotProcessor
+org.springframework.beans.factory.aot.BeanRegistrationAotProcessor=\
+    com.hyf.graalvm.config.CustomBeanRegistrationAotProcessor
+org.springframework.aot.hint.RuntimeHintsRegistrar=\
+    com.hyf.graalvm.config.CustomRuntimeHintsRegistrar
+org.springframework.beans.factory.aot.BeanRegistrationExcludeFilter=\
+    com.hyf.graalvm.config.CustomBeanRegistrationExcludeFilter
